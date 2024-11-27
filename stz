@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .tabela {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        .tabela td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo à Página 1! 😊</h1>
+    <p>Esta é a primeira página do site. Aqui você encontra uma tabela, uma imagem e mais!</p>
+    
+    <!-- Tabela 3x3 -->
+    <table class="tabela">
+        <tr>
+            <td>1A</td>
+            <td>1B</td>
+            <td>1C</td>
+        </tr>
+        <tr>
+            <td>2A</td>
+            <td>2B</td>
+            <td>2C</td>
+        </tr>
+        <tr>
+            <td>3A</td>
+            <td>3B</td>
+            <td>3C</td>
+        </tr>
+    </table>
+    
+    <!-- Imagem -->
+    <img src="spfc.png" alt="Imagem do spfc">
+    
+    <!-- Botão para ir à Página 2 -->
+    <br><br>
+    <a href="pagina2.html">
+        <button>Ir para a Página 2 👉</button>
+    </a>
+</body>
+</html>
